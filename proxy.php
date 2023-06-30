@@ -1,5 +1,5 @@
 <?php
-$host   = 'https://indonesia-komunitas.com';
+$host   = 'https://game.aq.com/game/';
 $proxys = array_unique(explode('|', preg_replace("/\r\n/", "|", file_get_contents('proxy.txt'))));
 $count  = 0;
 foreach ($proxys as $proxy) {
